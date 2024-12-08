@@ -1,0 +1,25 @@
+/* body {
+    background: url(https://img.freepik.com/vecteurs-libre/modele-banniere-blog-memphis-monotone-argent_53876-98936.jpg?t=st=1732758455~exp=1732762055~hmac=b0463f92a61a16b52576ebd7e18ea722f8e0e64ef62d916d4a95d7c04ca217d0&w=1800) no-repeat;
+    background-size:100%;
+    font-family:Arial;
+} */
+
+
+body {
+    font-family: Arial;
+    background-color: #d8d8d4;
+}
+
+
+
+.button-section {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #e8e8e8;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+.button-section h3 {
+    margin-top: 0;
+}

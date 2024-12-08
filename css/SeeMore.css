@@ -1,0 +1,42 @@
+/* body {
+    background: url(https://img.freepik.com/vecteurs-libre/modele-banniere-blog-memphis-monotone-argent_53876-98936.jpg?t=st=1732758455~exp=1732762055~hmac=b0463f92a61a16b52576ebd7e18ea722f8e0e64ef62d916d4a95d7c04ca217d0&w=1800) no-repeat;
+    background-size:100%;
+    font-family:Arial;
+} */
+
+
+body {
+    font-family: Arial;
+    background-color: #d8d8d4;
+}
+
+
+img {
+    display: block;
+    width: 30%;
+    margin: auto;
+  }
+
+  .image-container {
+    display: flex;
+    justify-content: center; /* Centre le contenu horizontalement */
+    align-items: center; /* Centre le contenu verticalement si nécessaire */
+    gap: 20px; /* Espacement entre les images */
+    margin-top: 50px; /* Marges supérieures pour espacer du haut */
+}
+
+.image-container img {
+    max-width: 100%; /* Pour s'assurer que l'image reste responsive */
+    /*height: auto;  Maintient le ratio d'aspect */
+    max-height: 400px; /* Limite la hauteur si nécessaire */
+    border: 2px solid #bbbbb6; /* Couleur et épaisseur du cadre */
+    border-radius: 5px; /* Coins arrondis (optionnel) */
+    padding: 5px;
+    border: 2px solid #bbbbb6; /* Couleur et épaisseur du cadre */
+    background-color: #bbbbb6; /* Couleur de fond du cadre */
+    padding: 10px; /* Espacement entre l'image et le bord du cadre */
+    border-radius: 8px; /* Coins arrondis (optionnel) */
+    display: block; /* Assure un affichage correct */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+
+}

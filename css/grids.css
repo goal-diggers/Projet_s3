@@ -1,0 +1,52 @@
+/* body {
+    background: url(https://img.freepik.com/photos-gratuite/image-fond-ecran-peinture-acrylique-grise_53876-104021.jpg?t=st=1732896630~exp=1732900230~hmac=43eb46e5f9ecc597fe0eca622ecc3459c876c21c0f5b271897a6300a6b82eca8&w=1800) no-repeat;
+    background-size:100%;
+    font-family:Arial;
+} */
+
+
+body {
+    font-family: Arial;
+    background-color: #d8d8d4;
+}
+
+
+#navigation {
+    text-align: center;
+    color: #ffffff;
+    height: 46px;
+    line-height: 46px;
+    margin-bottom: 22px;
+    background-color: #c8eaf3;
+}
+
+
+img {
+    display: block;
+    width: 30%;
+    margin: auto;
+  }
+
+  .image-container {
+    display: flex;
+    justify-content: center; /* Centre le contenu horizontalement */
+    align-items: center; /* Centre le contenu verticalement si nécessaire */
+    gap: 20px; /* Espacement entre les images */
+    margin-top: 50px; /* Marges supérieures pour espacer du haut */
+}
+
+.image-container img {
+    max-width: 100%; /* Pour s'assurer que l'image reste responsive */
+    /*height: auto;  Maintient le ratio d'aspect */
+    max-height: 400px; /* Limite la hauteur si nécessaire */
+    border: 2px solid #bbbbb6; /* Couleur et épaisseur du cadre */
+    border-radius: 5px; /* Coins arrondis (optionnel) */
+    padding: 5px;
+    border: 2px solid #bbbbb6; /* Couleur et épaisseur du cadre */
+    background-color: #bbbbb6; /* Couleur de fond du cadre */
+    padding: 10px; /* Espacement entre l'image et le bord du cadre */
+    border-radius: 8px; /* Coins arrondis (optionnel) */
+    display: block; /* Assure un affichage correct */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+
+}
